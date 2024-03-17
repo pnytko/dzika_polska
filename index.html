@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="resources/ol/ol.css">
     <link rel="stylesheet" href="resources/layer-switcher/ol-layerswitcher.css">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
     <div class="grid-container">
@@ -16,13 +17,17 @@
         </div>
         <div class="left">
             <div class="toc">
-                <h3>Warstwy</h3>
+                <h3>Warstwy orientacyjne</h3>
                 <input type="checkbox" id="osm" value="OpenStreetMap" checked onchange="toggleLayer(event);">
                 <label for="osm">OpenStreetMap</label>
                 <br>
 
                 <input type="checkbox" id="wojewodztwa" value="Wojewodztwa" checked onchange="toggleLayer(event);">
                 <label for="wojewodztwa">Województwa</label>
+                <br>
+                <h3>Warstwy funkcyjne</h3>
+                <input type="checkbox" id="#" value="#" onchange="toggleLayer(event);">
+                <label for="#">Light Polution Map</label>
                 <br>
 
             </div>

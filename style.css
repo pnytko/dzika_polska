@@ -26,9 +26,10 @@ body {
 
 .left {
     grid-area: left;
-    width: 10vw;
+    width: 13vw;
     height: 100vh;
     border: 5px solid grey;
+    font-family: 'Roboto', sans-serif;
 }
 
 .toc {
@@ -38,7 +39,7 @@ body {
 
 .right {
     grid-area: right;
-    width: 90vw;
+    width: 87vw;
     height: 100vh;
     border: 5px solid grey;
 }
